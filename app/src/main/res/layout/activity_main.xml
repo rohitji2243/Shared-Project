@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="130dp"
+        android:text="User Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:text="UserName"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        />
+</LinearLayout>
